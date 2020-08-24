@@ -1,0 +1,13 @@
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+/* .home__headerLeft {
+  display: flex;
+  justify-content: space-between;
+}
+.home__headerRight {
+  display: flex;
+  justify-content: space-between;
+} */
