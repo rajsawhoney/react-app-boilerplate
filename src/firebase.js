@@ -1,13 +1,13 @@
 import firebase from "firebase";
 const fireConf = {
-  apiKey: "AIzaSyCYnAty5kfIqkfNQJH-bayYpnHPRrdyp1U",
-  authDomain: "instagram-clone-2be51.firebaseapp.com",
-  databaseURL: "https://instagram-clone-2be51.firebaseio.com",
-  projectId: "instagram-clone-2be51",
-  storageBucket: "instagram-clone-2be51.appspot.com",
-  messagingSenderId: "785007462997",
-  appId: "1:785007462997:web:c68e0b40f8c699a521a2dc",
-  measurementId: "G-9H2DSJC96M",
+  apiKey: "AIzaSyA7hYLksdoJLij6TbOicwOr6LVAOqJNv1A",
+    authDomain: "share-message-85a43.firebaseapp.com",
+    databaseURL: "https://share-message-85a43.firebaseio.com",
+    projectId: "share-message-85a43",
+    storageBucket: "share-message-85a43.appspot.com",
+    messagingSenderId: "895841365577",
+    appId: "1:895841365577:web:f2b41086d4134536169998",
+    measurementId: "G-S7VG4NS8L9"
 };
 
 firebase.initializeApp(fireConf);
