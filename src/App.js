@@ -1,18 +1,17 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Result from "./pages/Result";
 
 function App() {
   return (
     <div className="App">
-      {/* Home Page with Search Box */}
-      {/* Search Result Page */}
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/search" component={Result} />
+          <Route exact path="/" component={() => <h2>This is Home Page</h2>} />
+          <Route
+            path="/other"
+            component={() => <h2>This is another page</h2>}
+          />
         </Switch>
       </Router>
     </div>
