@@ -1,0 +1,32 @@
+.sidebar__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__container>a{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2.5vh 10px;
+    color: rgb(92, 88, 88);
+    transition: all .4s;
+}
+
+.sidebar__container>a:hover {
+    color: black;
+    background: rgba(149, 178, 233, 0.747);
+    transform: scale(1.04);
+    box-shadow: 0px 2px 4px lightgray;
+}
+
+.sidebar__container>a>.MuiSvgIcon-root:hover{
+    transform: rotate(360deg);
+    color: rgb(211, 19, 35);
+}
+.sidebar__container>a>.MuiSvgIcon-root{
+    transform: rotate(0deg);
+    transition: all 1s;
+    padding: 0 10px;
+    color: rgb(35, 25, 44);
+}

@@ -1,0 +1,139 @@
+.login__reg__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,transparent,rgba(105, 120, 124, 0.856),transparent),url('./admin-login.gif');    
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  .login__reg__body {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 3rem;
+      max-width: 60vw;
+      min-width: 30vw;
+      min-height: 30vh;
+      justify-content: center;
+      background: #fff;
+      box-shadow: 2px 2px 4px lightgray;
+      border-radius: 10px;
+    }
+    
+    .login__reg__title {
+      display: flex;      
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 2rem;
+    }
+    
+    .login__reg__title > span {
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: rgb(102, 18, 180);
+    }
+  
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: inherit;
+  }
+  
+  .form__group__input__field{
+    width: inherit;
+    padding: 10px;
+    font-size: 1.1rem;
+    align-self: stretch;
+    margin: 7.5px 0px;
+    border: none;
+    outline: none;
+    color: rgba(87, 10, 97, 0.945);
+    border-bottom: 0.00001px solid lightgray;
+  }
+  .password__field__wrapper > input {
+    padding: 10px;
+    flex: .9;
+    font-size: 1.1rem;
+    align-self: stretch;
+    border: none;
+    outline: none;
+    color: rgba(87, 10, 97, 0.945);
+  }
+  
+  .form__group__input__field:hover,
+  .form__group__input__field:focus,
+  .password__field__wrapper:hover,
+  .password__field__wrapper:focus
+  {
+    outline: none;
+    transform: scale(1.02101);
+    border-bottom: 2px solid orange;
+    background-color: rgba(188, 240, 225, 0.336);
+    -webkit-transform: scale(1.02101);
+    -moz-transform: scale(1.02101);
+    -ms-transform: scale(1.02101);
+    -o-transform: scale(1.02101);
+  }
+
+  .password__field__wrapper>input:hover,
+  .password__field__wrapper>input:focus
+  {
+    background-color: rgba(190, 238, 224, 0.192);
+  }
+  
+  .password__field__wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 0.00001px solid lightgray;
+  }
+  
+  .password__field__wrapper > .MuiSvgIcon-root {
+    flex: .2;
+    color: gray;
+    padding-right: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  
+  .error {
+    padding: 0 10px;
+    color: rgb(245, 149, 24);
+    font-size: medium;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .login__submit__button {
+    border: unset;
+    margin: 7px 0;
+    padding: 7px 20px;
+    float: right;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    outline: unset;
+    background-color: rgba(102, 11, 187, 0.658);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }
+  
+  .login__submit__button:hover {
+    background-color: rgb(102, 11, 187);
+    box-shadow: 1px 2px 3px;
+    cursor: pointer;
+  }

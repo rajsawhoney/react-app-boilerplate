@@ -1,0 +1,37 @@
+.wallet__transactions__container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;    
+}
+.wallet__transactions__filters{
+    flex: .2;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: inherit;
+}
+
+.wallet__transactions__filters>h4{
+    padding: 0 1rem;
+}
+.wallet__transactions__filters>span{
+    padding: 10px 1rem;
+    background: rgba(252, 167, 10, 0.582);
+    margin: 0 10px;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    color: rgb(71, 68, 68);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.wallet__transactions__filters>span:hover{
+    background: rgba(255, 166, 0, 0.842);
+    color: rgb(14, 12, 12);
+    box-shadow: 0px 1px 3px rgba(69, 73, 73, 0.685);
+}
+.wallet__transactions__contents{
+    width: inherit;
+}
